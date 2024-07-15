@@ -1,0 +1,24 @@
+.progress-tracker {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .progress-bar-container {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #3f51b5;
+    transition: width 0.5s ease;
+  }
+  
+  .progress-tracker p {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  

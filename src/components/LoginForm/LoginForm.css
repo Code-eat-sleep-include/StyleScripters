@@ -1,0 +1,77 @@
+.xyz h1{
+  padding-left: 800px !important;
+  text-align: center;
+  color: coral !important;
+  font-weight: bolder;
+}
+
+h2 {
+  margin-top: 0px !important;
+  margin-right: 100 !important;
+  text-align: center !important;
+}
+
+h4 {
+  color: rgb(114, 220, 241);
+}
+
+form {
+  display: flex ;
+  flex-direction: column ;
+  max-width: 300px ;
+  margin: 0 auto ;
+}
+
+label {
+  margin-bottom: 8px ;
+}
+
+input {
+  padding: 8px ;
+  margin-bottom: 16px ;
+  border-radius: 20px ;
+}
+
+button {
+  padding: 10px ;
+  background-color: #010a14;
+  color: #000000;
+  cursor: pointer;
+}
+
+.container-outer {
+  display: flex ;
+  flex-direction: row-reverse ;
+}
+
+.gallery{
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  left: -90px;
+}
+
+.gallery-container {
+  width: 800px ;
+}
+
+.span-text {
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+  padding: 6px 0 ;
+}
+
+.login-outer {
+  background: linear-gradient(to top, rgba(204, 122, 81, 0.3), rgba(225, 122, 163, 0.3));
+  padding: 26px ;
+  width: 310px ;
+  border-radius: 20px ;
+}
+
+label {
+  color: grey !important;
+}

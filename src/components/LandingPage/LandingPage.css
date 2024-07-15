@@ -1,0 +1,78 @@
+.landing-page {
+  text-align: center;
+  padding: 2rem;
+}
+
+.landing-page h1 {
+  font-size: 2.5rem;
+  color: #3f51b5;
+}
+
+.landing-page p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.blog-container {
+  padding: 50px;
+  width: 50vw !important;
+  margin-left: 22vw;
+  margin-right: 22vw;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.user-container img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.user-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-right: 50px;
+  justify-content: center;
+}
+
+#lp>h1 {
+  color: midnightblue !important;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: white;
+  font-weight: bold;
+}
+
+.vol {
+  font-weight: bold;
+  color: darkblue;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: white;
+}
+
+.blog-content {
+  width: 60% !important;
+  font-weight: bold;
+}
+
+.bolder {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#lp .carousel-inner,
+#lp .carousel-item {
+  height: fit-content !important;
+  width: fit-content !important;
+}
+
+#lp .carousel-item {}
+
+
+.user-name {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}

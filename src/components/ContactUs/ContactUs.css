@@ -1,0 +1,44 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+
+.form-container label {
+  color: black !important;
+  font-weight: bold !important;
+}
+
+.outer-contact-us {
+  display: flex;
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../assets/contactus.jpg');
+  background-repeat: no-repeat;
+}
+
+.heading {
+  width: 100%;
+  text-align: center;
+  color: darkblue;
+  font-size: 32pt;
+  font-weight: bold;
+}
+
+.outer-container-contact-us {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.map-frame {
+  height: 500px;
+  width: 600px;
+  border-radius: 20px;
+}
+
+.form-container {
+  width: 100%;
+  background-color:rgba(255,255,255,0.275);
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}

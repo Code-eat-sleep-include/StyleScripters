@@ -1,0 +1,42 @@
+  .navbar-logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    position: absolute;
+    top: 9px;
+  }
+
+  .cursive-text {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 32px;
+    color: #48b9f2;
+    margin-left: 5px;
+    position: absolute;
+    top: 5px;
+    left: 60px;
+  }
+
+  .nav-links {
+    color: black !important;
+    text-decoration: none !important;
+    font-size: 24px;
+  }
+
+  .offcanvas-title {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .btn {
+    width: 100%;
+    margin-bottom: 6px;
+    font-size: 18px;
+  }
+
+  .btn:hover {
+    font-weight: bold;
+  }
+
+  .nav-links:hover {
+    font-weight: bold;
+  }

@@ -1,0 +1,27 @@
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 30px; 
+    height: 20px; 
+  }
+  
+  .line {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+    transition: transform 0.4s, opacity 0.4s;
+  }
+  
+  .hamburger-menu.open .line:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  .hamburger-menu.open .line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger-menu.open .line:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
